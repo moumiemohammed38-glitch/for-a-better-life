@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For A Better Life - Catalog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <img src="image/god.jpg" alt="logo" class="logo-img">
-    </div>
-    <div class="phone-container">
+
+  <div class="phone-container">
     <div class="phone-notch"></div>
 
     <header class="header">
@@ -18,7 +16,7 @@
         <span class="hamburger"></span>
       </button>
       
-      <div class="logo-text"> for a better life</div>
+      <h1 class="logo-text">For A Better Life</h1>
       
       <button class="icon-btn" id="searchBtn" aria-label="Search">
         <span class="search-icon"></span>
@@ -28,51 +26,59 @@
     <main class="content">
       
       <section class="section">
-        <h2 class="section-title">Category</h2>
+        <h2 class="section-title">Chairs</h2>
         <div class="category-grid">
           <div class="image-box">
-            <img src="image/madara citaton.jpg" alt="Category 1" class="local-img">
-          </div>
-<div class="image-box">
-            <img src="image/messi.jpg" alt="Category 2" class="local-img">
+            <img src="image/madara citaton.jpg" alt="Madara Chair" class="local-img">
           </div>
           <div class="image-box">
-            <img src="image/me.jpg" alt="Category 3" class="local-img">
+            <img src="image/me.jpg" alt="Accent Chair" class="local-img">
+          </div>
+          <div class="image-box">
+            <img src="image/messi.jpg" alt="Messi Chair" class="local-img">
           </div>
         </div>
       </section>
 
       <div class="tags-container">
-        <span class="tag-pill" data-tag="1">Tag</span>
-        <span class="tag-pill" data-tag="2">Tag</span>
-        <span class="tag-pill" data-tag="3">Tag</span>
-        <span class="tag-pill" data-tag="4">Tag</span>
+        <button class="tag-pill active">Category</button>
+        <button class="tag-pill">Size</button>
+        <button class="tag-pill">Colour</button>
+        <button class="tag-pill">+ Filters</button>
       </div>
 
       <section class="section">
         <h2 class="section-title">Products</h2>
         
-        <div class="product-card" data-product-id="101">
+        <article class="product-card" data-product-id="strandmon-01">
           <div class="product-thumb">
-            <img src="image/WIN_20260612_20_09_44_Pro.jpg" alt="Product 1" class="local-img">
+            <img src="image/god.jpg" alt="Strandmon Chair" class="local-img">
           </div>
           <div class="product-info">
-            <div class="text-line title-line">Title</div>
-            <div class="text-line body-line"></div>
-            <div class="button-placeholder"></div>
+            <div class="product-meta">
+              <h3 class="product-title">Strandmon</h3>
+              <p class="product-description">Personal pic with a good visual view</p>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">$2.89</span>
+            </div>
           </div>
-        </div>
+        </article>
 
-        <div class="product-card" data-product-id="102">
+        <article class="product-card" data-product-id="sotenas-02">
           <div class="product-thumb">
-            <img src="image/messi.jpg" alt="Product 2" class="local-img">
+            <img src="image/WIN_20260612_20_09_44_Pro.jpg" alt="Sotenas Chair" class="local-img">
           </div>
           <div class="product-info">
-            <div class="text-line title-line">Title</div>
-            <div class="text-line body-line"></div>
-            <div class="button-placeholder"></div>
+            <div class="product-meta">
+              <h3 class="product-title">Sotenas</h3>
+              <p class="product-description">Functional layout item with responsive styling</p>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">$84.99</span>
+            </div>
           </div>
-        </div>
+        </article>
         
       </section>
     </main>
